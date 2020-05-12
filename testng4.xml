@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" parallel="tests" thread-count="2">
+    <test name="SeleniumTest4.1">
+        <classes>
+            <class name="org.example.SeleniumTest4">
+                <methods>
+                    <include name="searchJava()"></include>
+                    <include name="searchSelenium()"></include>
+                </methods>
+
+            </class>
+            <parameter name="browser" value="chrome"></parameter>
+            <parameter name="url" value="https://www.baidu.com/"></parameter>
+        </classes>
+    </test>
+    <test name="SeleniumTest4.2">
+        <classes>
+            <class name="org.example.SeleniumTest4">
+                <methods>
+                    <include name="searchJava()"></include>
+                    <include name="searchSelenium()"></include>
+                </methods>
+
+            </class>
+            <parameter name="browser" value="firefox"></parameter>
+            <parameter name="url" value="https://www.baidu.com/"></parameter>
+        </classes>
+    </test>
+</suite>
