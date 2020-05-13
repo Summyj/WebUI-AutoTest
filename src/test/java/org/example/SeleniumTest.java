@@ -22,5 +22,4 @@ public class SeleniumTest {
         driver.findElement(By.id("su")).click();
         driver.quit();
     }
-
 }
