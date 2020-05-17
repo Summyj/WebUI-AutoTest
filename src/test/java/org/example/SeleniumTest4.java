@@ -20,9 +20,11 @@ public class SeleniumTest4 {
             case "chrome":
                 System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
                 driver = new ChromeDriver();
+                break;
             case "firefox":
                 System.setProperty("webdriver.gecko.driver", "drivers/geckodriver");
                 driver = new FirefoxDriver();
+                break;
             default:
                 System.out.println("can't supply such browser.");
         }
