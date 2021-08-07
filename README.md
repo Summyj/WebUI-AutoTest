@@ -10,4 +10,4 @@
 - CI&CD: GoCD
 - IDE: IntelliJ IDEA
 
-详细教程请看系列文章：https://jmyblog.top/WebUI-AutoTest-Demo-1/
+详细教程请看 [系列文章](https://jmyblog.top/WebUI-AutoTest-Demo-1/)
