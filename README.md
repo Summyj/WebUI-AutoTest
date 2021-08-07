@@ -8,5 +8,6 @@
 - 测试用例管理：TestNG
 - CI: Jenkins
 - CI&CD: GoCD
+- IDE: IntelliJ IDEA
 
 详细教程请看系列文章：https://jmyblog.top/WebUI-AutoTest-Demo-1/
